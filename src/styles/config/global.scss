@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    font-family: var(--base-font-family);
+    font-weight: 400;
+}
+
+.textarea {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    word-break: break-all;
+}
